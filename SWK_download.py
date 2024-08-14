@@ -98,6 +98,7 @@ def parse_arguments():
 
 
 def main():
+    print("Świat Według Kiepskich Downloader")
     args = parse_arguments()
 
     remove_partial_files(args.output)
