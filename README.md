@@ -1,4 +1,3 @@
-```markdown
 # SWK Download Script
 
 This Python script allows you to download episodes of "Świat Według Kiepskich" with resume support. It handles downloading episodes by season or globally numbered episodes, and includes features like partial download removal and progress tracking.
