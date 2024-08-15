@@ -30,7 +30,7 @@ Python is the programming language used to run this script.
 1. In the same Command Prompt window, type the following command and press Enter:
 
    ```bash
-   winget install --id Python.Python.3 -e --source winget
+   winget install --id Python.Python.3.12 -e --source winget
    ```
 
 2. Wait for the installation to complete.
@@ -40,7 +40,7 @@ Python is the programming language used to run this script.
 1. After installing Git, type the following command to download the script from GitHub:
 
    ```bash
-   git clone https://github.com/yourusername/SWK_download.git
+   git clone https://github.com/dam2452/SWK_download.git
    ```
 
 2. Navigate to the script's directory:
@@ -66,19 +66,19 @@ Now you're ready to download the episodes!
 - **To download all episodes using the default settings**, simply type:
 
   ```bash
-  python SWK_download_resume.py
+  python SWK_download.py
   ```
 
 - **To download a specific episode (e.g., episode 166)**, type:
 
   ```bash
-  python SWK_download_resume.py --episode 166
+  python SWK_download.py --episode 166
   ```
 
 - **To download all episodes from a specific season (e.g., season 3)**, type:
 
   ```bash
-  python SWK_download_resume.py --season 3
+  python SWK_download.py --season 3
   ```
 
 The episodes will be downloaded to a folder called `SWK_downloaded` in the same directory where the script is located.
@@ -106,7 +106,7 @@ These requirements are automatically installed if you follow the Easy Setup Guid
 If you want to use the default input (`kiepscy.txt` in the script's directory) and output (`SWK_downloaded` in the script's directory), simply run:
 
 ```bash
-python SWK_download_resume.py
+python SWK_download.py
 ```
 
 ### Custom Usage
@@ -114,7 +114,7 @@ python SWK_download_resume.py
 You can customize the input file and output directory paths using the `--input` and `--output` options:
 
 ```bash
-python SWK_download_resume.py --input /path/to/your/kiepscy.txt --output /path/to/output/directory
+python SWK_download.py --input /path/to/your/kiepscy.txt --output /path/to/output/directory
 ```
 
 ### Downloading Specific Episode
@@ -122,7 +122,7 @@ python SWK_download_resume.py --input /path/to/your/kiepscy.txt --output /path/t
 To download a specific episode by its global number:
 
 ```bash
-python SWK_download_resume.py --episode 166
+python SWK_download.py --episode 166
 ```
 
 ### Downloading a Full Season
@@ -130,7 +130,7 @@ python SWK_download_resume.py --episode 166
 To download all episodes from a specific season:
 
 ```bash
-python SWK_download_resume.py --season 3
+python SWK_download.py --season 3
 ```
 
 ## Input File Format
@@ -154,7 +154,7 @@ Episode Name 3
 Here's an example of running the script to download all episodes from season 3:
 
 ```bash
-python SWK_download_resume.py --season 3
+python SWK_download.py --season 3
 ```
 
 ## Contribution
