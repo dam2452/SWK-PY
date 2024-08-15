@@ -164,4 +164,3 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## License
 
 This project is licensed under an open license, allowing anyone to use, modify, and distribute the code without restriction.
-```
