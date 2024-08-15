@@ -165,11 +165,3 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 This project is licensed under an open license, allowing anyone to use, modify, and distribute the code without restriction.
 ```
-
-### Jak używać:
-
-1. **Skopiuj** powyższą treść do pliku `README.md`.
-2. **Zastąp** `yourusername` swoim użytkownikiem GitHub w linkach do repozytorium, jeśli chcesz umożliwić zgłaszanie problemów i próśb o nowe funkcje.
-3. **Dodaj** plik do swojego repozytorium GitHub.
-
-Ten README zapewnia pełne informacje dla użytkowników, zarówno tych zaawansowanych, jak i początkujących, oraz zawiera wszystkie istotne zastrzeżenia dotyczące praw autorskich i odpowiedzialności.
