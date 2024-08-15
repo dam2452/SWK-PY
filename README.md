@@ -40,7 +40,7 @@ Python is the programming language used to run this script.
 1. After installing Git, type the following command to download the script from GitHub:
 
    ```bash
-   git clone https://github.com/dam2452/SWK_download.git
+   git clone https://github.com/dam2452/SWK-PY
    ```
 
 2. Navigate to the script's directory:
