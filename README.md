@@ -6,6 +6,11 @@ This Python script allows you to download episodes of "Świat Według Kiepskich"
 
 **Disclaimer:** I am not the author or creator of the `.txt` file, its contents, or any of the links within it. I have no affiliation with the owners or creators of "Świat Według Kiepskich" or any related content. "Świat Według Kiepskich" is the property of Polsat and all rights to the show belong to them. I take no responsibility for the content of the `.txt` file or how it is used. This script is purely a tool written in Python to assist with downloading the episodes listed in the provided `.txt` file.
 
+## Available Languages
+
+- [Polski (Polish)](README.pl.md)
+- [English (This file)](README.md)
+
 ## Easy Setup Guide
 
 If you're not familiar with programming or installing software, follow these steps to get everything set up. This guide will help you install the necessary tools and run the script easily.
