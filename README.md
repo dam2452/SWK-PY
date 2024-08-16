@@ -2,6 +2,8 @@
 
 This Python script allows you to download episodes of "Świat Według Kiepskich" with resume support. It handles downloading episodes by season or globally numbered episodes, and includes features like partial download removal and progress tracking.
 
+![image](https://github.com/user-attachments/assets/91f2c720-c5b8-4b3f-904e-eec36919f870)
+
 ## Important Notice
 
 **Disclaimer:** I am not the author or creator of the `.txt` file, its contents, or any of the links within it. I have no affiliation with the owners or creators of "Świat Według Kiepskich" or any related content. "Świat Według Kiepskich" is the property of Polsat and all rights to the show belong to them. I take no responsibility for the content of the `.txt` file or how it is used. This script is purely a tool written in Python to assist with downloading the episodes listed in the provided `.txt` file.
