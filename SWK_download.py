@@ -56,6 +56,10 @@ def download_file(url, file_path, overall_bar, episode_bar):
 
 def format_episode_name(name, season=None, episode=None, global_episode=None, mode="global"):
     """Format the episode name according to the given numbering mode."""
+    # Usuń numer odcinka z tytułu
+    name = name.lstrip(f"{global_episode}.").strip()
+
+    # Formatowanie nazwy odcinka
     safe_name = "".join(c if c.isalnum() else '_' for c in name).replace('_', ' ')
     safe_name = '.'.join(filter(None, safe_name.split(' ')))
 
@@ -63,6 +67,7 @@ def format_episode_name(name, season=None, episode=None, global_episode=None, mo
         return f"ŚwiatWedługKiepskich.S{int(season):02}E{int(episode):02}.{safe_name}.mp4"
     elif mode == "global":
         return f"ŚwiatWedługKiepskich.E{int(global_episode):03}.{safe_name}.mp4"
+
 
 
 def count_downloaded_episodes(base_directory, season_number, mode):
@@ -159,7 +164,6 @@ def main():
 
                         if os.path.exists(file_path) and os.path.getsize(file_path) == int(
                                 requests.head(episode_url, allow_redirects=True).headers.get('content-length', 0)):
-                            print(f"File {file_path} already exists and is fully downloaded, skipping.")
                             episode_bar.update(1)
                             global_episode_number += 1
                             episode_number += 1
