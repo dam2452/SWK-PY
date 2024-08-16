@@ -2,6 +2,8 @@
 
 Ten skrypt Python umożliwia pobieranie odcinków "Świat Według Kiepskich" z obsługą wznawiania. Obsługuje pobieranie odcinków według sezonu lub numerów globalnych, a także zawiera funkcje takie jak usuwanie częściowych pobrań i śledzenie postępu.
 
+![image](https://github.com/user-attachments/assets/730c12fe-e0bb-4110-9f34-c259e1023d33)
+
 ## Ważna Informacja
 
 **Zrzeczenie:** Nie jestem autorem ani twórcą pliku `.txt`, jego zawartości ani żadnych linków w nim zawartych. Nie mam żadnego powiązania z właścicielami lub twórcami "Świat Według Kiepskich" ani żadnych powiązanych treści. "Świat Według Kiepskich" jest własnością Polsatu, a wszystkie prawa do serialu należą do nich. Nie ponoszę odpowiedzialności za zawartość pliku `.txt` ani za to, jak jest używany. Ten skrypt jest jedynie narzędziem napisanym w Pythonie, które pomaga w pobieraniu odcinków wymienionych w dostarczonym pliku `.txt`.
